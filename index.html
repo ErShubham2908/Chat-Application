@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./fevicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css" >
+    <title>Chat Application</title>
+</head>
+<body>
+    <section class="chat_section">
+        <div class="item_brand">
+            <img height="40" src="./talkup.jpg" alt="Not found" >
+            <h1>Chat App</h1>
+        </div>
+        <!-- We can add dynamically in this message area. -->
+        <div class="item_message message">  </div>
+        <div class="item_text">
+            <textarea name="" id="textarea" cols="30" rows="1" placeholder="Write a Message"></textarea>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./client.js" ></script>
+</body>
+</html>
